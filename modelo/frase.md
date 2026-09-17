@@ -18,24 +18,31 @@ de um. Liste aqui, um por linha, com dois ou três atributos de cada:
 CAMPEONATO:
 
 -id_campeonato
+
 -nome_campeonato
 
 EQUIPE:
 
 -id_equipe
+
 -nome_equipe
+
 -cidade_equipe
 
 JOGADOR:
 
 -id_jogador
+
 -nome_jogador
+
 -posição
 
 PARTIDA:
 
 -id_partida
+
 -data
+
 -horário
 
 ## O N:N com atributo próprio
@@ -44,4 +51,5 @@ Qual é o par de entidades que se cruza muitos-para-muitos, e qual dado nasce
 **do encontro** entre elas (e não de nenhum dos dois lados)?
 
 -Par de entidades: CAMPEONATO e EQUIPE
+
 -Dado que nasce do encontro: classificação
