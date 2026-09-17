@@ -15,13 +15,13 @@
 Cada substantivo da frase que tem vida própria e que você precisa guardar mais
 de um. Liste aqui, um por linha, com dois ou três atributos de cada:
 
-CAMPEONATO:
+**CAMPEONATO:**
 
 -id_campeonato
 
 -nome_campeonato
 
-EQUIPE:
+**EQUIPE:**
 
 -id_equipe
 
@@ -29,7 +29,7 @@ EQUIPE:
 
 -cidade_equipe
 
-JOGADOR:
+**JOGADOR:**
 
 -id_jogador
 
@@ -37,7 +37,7 @@ JOGADOR:
 
 -posição
 
-PARTIDA:
+**PARTIDA:**
 
 -id_partida
 
