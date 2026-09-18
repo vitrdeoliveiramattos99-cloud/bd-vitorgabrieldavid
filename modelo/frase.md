@@ -52,4 +52,4 @@ Qual é o par de entidades que se cruza muitos-para-muitos, e qual dado nasce
 
 -Par de entidades: CAMPEONATO e EQUIPE
 
--Dado que nasce do encontro: classificação
+-Dado que nasce do encontro: participação
