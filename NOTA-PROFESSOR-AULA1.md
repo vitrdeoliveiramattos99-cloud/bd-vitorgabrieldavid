@@ -1,9 +1,7 @@
-Gabriel, David, Vitor, o trabalho de vocês é o mais completo da turma até agora. A frase está clara, as quatro entidades tem atributo, e o cruzamento entre CAMPEONATO e EQUIPE com PARTICIPACAO nascendo do encontro está certo.
+Gabriel, David, Vitor, atualizando essa nota porque vocês resolveram o que faltava.
 
-O problema de vocês é só nome de arquivo, não é conteúdo.
+O Vitor corrigiu os prefixos de ID no logico.md, e agora ele está com o .md no final e as chaves primárias certas (CAMPEONATO, EQUIPE, PARTICIPACAO, PARTIDA, JOGADOR). O David reorganizou os arquivos do modelo, e mesmo tendo apagado o logico.md em um commit no meio do caminho, o Gabriel já tinha subido de novo antes disso, então nada se perdeu.
 
-O arquivo modelo entidade relacionamento.svg é o diagrama, mas precisa se chamar conceitual.png (uma exportação em imagem) e falta o conceitual.drawio, que é a fonte editável.
+O diagrama ainda está como "modelo entidade relacionamento.svg", com espaço no nome e sem ser o conceitual.png/conceitual.drawio que a aula pede. Não é mais uma questão de conteúdo, o desenho existe e está certo, é só renomear e, se possível, exportar também a versão .png além do .svg.
 
-O arquivo modelo lógico está sem extensão. Ele precisa se chamar logico.md, com o .md no final, pra abrir certo como texto. Confirmem também se as chaves primárias estão sublinhadas dentro dele, do jeito que a aula pede, tipo TIME (_id_equipe_, nome_equipe).
-
-Resolvendo esses três nomes de arquivo a Aula 1 de vocês está pronta.
+Com isso, a modelagem da Aula 1 de vocês está fechada. Falta só ajustar o nome do arquivo do diagrama.
