@@ -50,7 +50,7 @@ CREATE TABLE EDITORA(
     nm TEXT NOT NULL
 );
 
-INSERT INTO EDITORA (id, nm) VALUES (1, 'compania das letras')
+INSERT INTO EDITORA (id, nm) VALUES (1, 'compania das letras');
 
 ALTER TABLE EDITORA RENAME COLUMN nm TO nome;
 -- ex5
