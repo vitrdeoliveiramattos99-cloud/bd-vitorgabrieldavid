@@ -32,7 +32,6 @@ CREATE TABLE LEITOR(
     ADD Telefone VARCHAR(20);
 
     SELECT * FROM LEITOR
-)
 
 -- ex3
 CREATE TABLE Emprestimo(
