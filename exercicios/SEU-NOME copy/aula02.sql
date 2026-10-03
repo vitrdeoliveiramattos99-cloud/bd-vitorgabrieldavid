@@ -15,20 +15,20 @@ CREATE TABLE LIVRO(
 )
 
 -- ex2
-CREATE TABLE Leitor(
+CREATE TABLE LEITOR(
     id INTEGER PRIMARY KEY,
     nome VARCHAR(255) NOT NULL
 );
-    INSERT INTO Leitor (id, nome) 
-VALUES (01, 'Gabriel');
+    INSERT INTO LEITOR (id, nome) 3
+    VALUES (01, 'Gabriel');
 
-    INSERT INTO Leitor (id, nome) 
+    INSERT INTO LEITOR (id, nome) 
     VALUES (02, 'Maria');
 
-    INSERT INTO Leitor (id, nome) 
+    INSERT INTO LEITOR (id, nome) 
     VALUES (03, 'Ana');
 
-    ALTER TABLE Leitor 
+    ALTER TABLE LEITOR
     ADD Telefone VARCHAR(20);
 
     SELECT * FROM LEITOR
