@@ -20,13 +20,13 @@ CREATE TABLE Leitor(
     nome VARCHAR(255) NOT NULL
 
     INSERT INTO Leitor (id, nome) 
-VALUES (01, Gabriel);
+VALUES (01, 'Gabriel');
 
     INSERT INTO Leitor (id, nome) 
-    VALUES (02, Maria);
+    VALUES (02, 'Maria');
 
     INSERT INTO Leitor (id, nome) 
-    VALUES (03, Ana);
+    VALUES (03, 'Ana');
 
     ALTER TABLE Leitor 
     ADD Telefone VARCHAR(20);
