@@ -43,9 +43,16 @@ insert into Emprestimo (id, id_livro) VALUES (1, 10), (2, 20);
 
 ALTER TABLE Emprestimo
 ADD COLUMMN situacao VARCHAR(50) NOT NULL DEFAULT 'ativo';
+
 -- ex4
+CREATE TABLE EDITORA
+id INTEGER PRIMARY KEY
+nm TEXT NOT NULL
+);
 
+INSERT INTO EDITORA (id, nm) VALUES (1, 'compania das letras')
 
+ALTER TABLE EDITORA RENAME COLUMN nm TO nome;
 -- ex5
 
 
