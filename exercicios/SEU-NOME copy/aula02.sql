@@ -6,14 +6,44 @@
 -- Cada bloco roda num banco em branco: crie o que voce for usar.
 
 -- ex1
-
+CREATE TABLE LIVRO(
+    id INTEGER PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    autor VARCHAR(255) NOT NULL,
+    ano INTEGER,
+    exemplares INTEGER NOT NULL DEFAULT 1
+)
 
 -- ex2
+CREATE TABLE Leitor(
+    id INTEGER PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL
 
+    INSERT INTO Leitor (id, nome) 
+VALUES (01, Gabriel);
+
+    INSERT INTO Leitor (id, nome) 
+    VALUES (02, Maria);
+
+    INSERT INTO Leitor (id, nome) 
+    VALUES (03, Ana);
+
+    ALTER TABLE Leitor 
+    ADD Telefone VARCHAR(20);
+
+    SELECT * FROM LEITOR
+)
 
 -- ex3
+CREATE TABLE Emprestimo(
+    id INTEGER PRIMARY KEY,
+    id_livro INTEGER NOT NULL
+);
 
+insert into Emprestimo (id, id_livro) VALUES (1, 10), (2, 20);
 
+ALTER TABLE Emprestimo
+ADD COLUMMN situacao VARCHAR(50) NOT NULL DEFAULT 'ativo';
 -- ex4
 
 
