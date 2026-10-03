@@ -18,7 +18,7 @@ CREATE TABLE LIVRO(
 CREATE TABLE Leitor(
     id INTEGER PRIMARY KEY,
     nome VARCHAR(255) NOT NULL
-
+);
     INSERT INTO Leitor (id, nome) 
 VALUES (01, 'Gabriel');
 
