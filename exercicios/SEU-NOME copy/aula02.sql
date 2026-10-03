@@ -19,7 +19,7 @@ CREATE TABLE LEITOR(
     id INTEGER PRIMARY KEY,
     nome VARCHAR(255) NOT NULL
 );
-    INSERT INTO LEITOR (id, nome) agora
+    INSERT INTO LEITOR (id, nome) 
     VALUES (01, 'Gabriel');
 
     INSERT INTO LEITOR (id, nome) 
