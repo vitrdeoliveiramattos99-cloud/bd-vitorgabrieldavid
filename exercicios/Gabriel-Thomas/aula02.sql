@@ -57,7 +57,7 @@ ALTER TABLE EDITORA RENAME COLUMN nm TO nome;
 CREATE TABLE RASCUNHO(
     id INTEGER PRIMARY KEY,
     texto TEXT
-)
+);
 INSERT INTO RASCUNHO (id_texto) VALUES (1, 'primeira nota');
 INSERT INTO RASCUNHO (id_texto) VALUES (2, 'segunda nota');
 INSERT INTO RASCUNHO (id_texto) VALUES (3, 'terceira nota');
