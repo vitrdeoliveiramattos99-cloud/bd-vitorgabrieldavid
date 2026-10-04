@@ -61,4 +61,10 @@ CREATE TABLE RASCUNHO(
 INSERT INTO RASCUNHO (id_texto) VALUES (1, 'primeira nota');
 INSERT INTO RASCUNHO (id_texto) VALUES (2, 'segunda nota');
 INSERT INTO RASCUNHO (id_texto) VALUES (3, 'terceira nota');
+
+DELETE FROM RASCUNHO;
+
+SELECT * FROM RASCUNHO;
+
+DROP TABLE RASCUNHO;
 -- ex6
