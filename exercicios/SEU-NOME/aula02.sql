@@ -12,42 +12,80 @@ CREATE TABLE LIVRO(
     autor VARCHAR(255) NOT NULL,
     ano INTEGER
     exemplares INTEGER NOT NULL DEFAULT 1
-)
+);
 
 
 -- ex2
-CREATE TABLE Leitor(
+CREATE TABLE LEITOR(
     id INTEGER PRIMARY KEY,
     nome VARCHAR(255) NOT NULL
 
-    INSERT INTO Leitor (id, nome) 
+    INSERT INTO LEITOR (id, nome) 
     VALUES (01, Vitor);
 
-    INSERT INTO Leitor (id, nome) 
+    INSERT INTO LEITOR (id, nome) 
     VALUES (02, Ana);
 
-    INSERT INTO Leitor (id, nome) 
+    INSERT INTO LEITOR (id, nome) 
     VALUES (03, Julia);
 
-    ALTER TABLE Leitor 
+    ALTER TABLE LEITOR 
     ADD Telefone VARCHAR(20);
 
     SELECT * FROM LEITOR
-
-)
+);
 
 
 -- ex3
-CREATE TABLE Emprestimo(
+CREATE TABLE EMPRESTIMO(
     id INTEGER PRIMARY KEY,
     id_livro INTEGER NOT NULL
-)
+);
+
+INSERT INTO EMPRESTIMO (id, id_livro)
+VALUES (01, 01);
+
+INSERT INTO EMPRESTIMO (id, id_livro)
+VALUES (02, 02);
+
+ALTER TABLE Emprestimo
+ADD situacao TEXT NOT NULL DEFAULT 'desconhecido'
 
 
 -- ex4
+CREATE TABLE EDITORA(
+    id INTEGER,
+    nm VARCHAR(255)
+);
+
+INSERT INTO EDITORA (id, nm)
+VALUES (01, Companhia das Letras);
+
+ALTER TABLE EDITORA
+RENAME COLUMN nm TO nome
+
+SELECT * FROM Editora
 
 
 -- ex5
+CREATE TABLE RASCUNHO(
+    id INTEGER PRIMARY KEY,
+    texto TEXT
+);
 
+INSERT INTO RASCUNHO
+VALUES(01, XXX);
+
+INSERT INTO RASCUNHO
+VALUES(02, XXX);
+
+INSERT INTO RASCUNHO
+VALUES(03, XXX);
+
+DELETE FROM RASCUNHO;
+
+SELECT * FROM RASCUNHO
+
+DROP TABLE RASCUNHO
 
 -- ex6
