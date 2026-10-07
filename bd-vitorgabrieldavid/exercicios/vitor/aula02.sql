@@ -10,7 +10,7 @@ CREATE TABLE LIVRO(
     id INTEGER PRIMARY KEY,
     titulo VARCHAR(255) NOT NULL,
     autor VARCHAR(255) NOT NULL,
-    ano INTEGER
+    ano INTEGER,
     exemplares INTEGER NOT NULL DEFAULT 1
 );
 
@@ -19,21 +19,22 @@ CREATE TABLE LIVRO(
 CREATE TABLE LEITOR(
     id INTEGER PRIMARY KEY,
     nome VARCHAR(255) NOT NULL
-
-    INSERT INTO LEITOR (id, nome) 
-    VALUES (01, Vitor);
-
-    INSERT INTO LEITOR (id, nome) 
-    VALUES (02, Ana);
-
-    INSERT INTO LEITOR (id, nome) 
-    VALUES (03, Julia);
-
-    ALTER TABLE LEITOR 
-    ADD Telefone VARCHAR(20);
-
-    SELECT * FROM LEITOR
 );
+
+
+INSERT INTO LEITOR (id, nome) 
+VALUES (01, 'Vitor');
+
+INSERT INTO LEITOR (id, nome) 
+VALUES (02, 'Ana');
+
+INSERT INTO LEITOR (id, nome) 
+VALUES (03, 'Julia');
+
+ALTER TABLE LEITOR 
+ADD Telefone VARCHAR(20);
+
+SELECT * FROM LEITOR;
 
 
 -- ex3
@@ -49,7 +50,7 @@ INSERT INTO EMPRESTIMO (id, id_livro)
 VALUES (02, 02);
 
 ALTER TABLE Emprestimo
-ADD situacao TEXT NOT NULL DEFAULT 'desconhecido'
+ADD situacao TEXT NOT NULL DEFAULT 'desconhecido';
 
 
 -- ex4
@@ -59,12 +60,12 @@ CREATE TABLE EDITORA(
 );
 
 INSERT INTO EDITORA (id, nm)
-VALUES (01, Companhia das Letras);
+VALUES (01, 'Companhia das Letras');
 
 ALTER TABLE EDITORA
-RENAME COLUMN nm TO nome
+RENAME COLUMN nm TO nome;
 
-SELECT * FROM Editora
+SELECT * FROM Editora;
 
 
 -- ex5
@@ -74,18 +75,18 @@ CREATE TABLE RASCUNHO(
 );
 
 INSERT INTO RASCUNHO
-VALUES(01, XXX);
+VALUES(01, 'fulano');
 
 INSERT INTO RASCUNHO
-VALUES(02, XXX);
+VALUES(02, 'ciclano');
 
 INSERT INTO RASCUNHO
-VALUES(03, XXX);
+VALUES(03, 'beltrano');
 
 DELETE FROM RASCUNHO;
 
-SELECT * FROM RASCUNHO
+SELECT * FROM RASCUNHO;
 
-DROP TABLE RASCUNHO
+DROP TABLE RASCUNHO;
 
 -- ex6
