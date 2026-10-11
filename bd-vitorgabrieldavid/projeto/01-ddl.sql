@@ -45,3 +45,4 @@ CREATE TABLE JOGADOR (
     FOREIGN KEY (id_equipe) REFERENCES EQUIPE(id_equipe)
 );
 
+
