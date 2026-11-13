@@ -5,6 +5,8 @@
 -- Roda num banco em branco: nada pode depender de tabela criada fora daqui.
 -- Minimo 4 tabelas, e uma associativa com atributo proprio.
 
+PRAGMA foreign_keys = ON;
+
 CREATE TABLE CAMPEONATO (
     id_campeonato INT PRIMARY KEY,
     nome_campeonato VARCHAR(100) NOT NULL,
